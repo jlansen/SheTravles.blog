@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>She Travels</title>
+	<link rel="stylesheet" href="project.css">
+	<meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+    <style>
+
+      
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background: #EAEAEA;
+    
+        }
+
+        .header {
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+            background: #EAEAEA
+        }
+    
+        main h2 {
+            font-size: 40px;
+			text-align: center;
+			margin-left: 20px;
+			margin-right: 290px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #EAEAEA;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>She Travels</h1>
+    </header>
+    <header>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="blogs.html" class="dropbtn">Blogs</a>
+                <div class="dropdown-content">
+                    <a href="vlogs.html">Vlogs</a>
+                </div>
+            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="projectshop.html" class="dropbtn">Shop</a>
+                <div class="dropdown-content">
+                    <a href="cart.html">Cart</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+</body>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial;
+  padding: 20px;
+  background: #EAEAEA;
+}
+
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #EAEAEA;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 200%;
+  height: 200%;
+  padding: 20px;
+}
+
+
+.card {
+   background-color: #EAEAEA;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #EAEAEA;
+  margin-top: auto;
+}
+</style>
+</head>
+<body>
+    <div id="wrapper">
+<div class="header">
+  <h2>Blogs</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Don't Just Take My Word For it</h2>
+      <h5>June 30th, 2023</h5>
+      <img src="external.jpg" alt="Image 1" style="width:50%;">
+      <p>Fellow travler, Matt gives reasons why you should solo travel too.</p>
+      <p>Check out his post <a href="https://www.nomadicmatt.com/travel-blogs/why-solo-travel/">here</a></p>
+      <h2>2015 It Begins</h2>
+      <h5>July 1, 2023</h5>
+      <img src="blog1.jpg" alt="Image 1" style="width: 50%;">
+      <p>First Solo Trip</p>
+      <p>In 2015, I took my first solo trip out of the country!</p>
+    </div>
+    <div class="card">
+      <h2>Travel Essentials</h2>
+      <h5>July 7, 2023</h5>
+      <img src="blog2.jpg" alt="Image 1" style="width: 30%;">
+      <p>Gadgets to make anywhere feel like home</p>
+      <p>Fromt adapters to portable chargers, I have you covered...</p>
+    </div>
+  </div>
+</div>
+</div>
+  <footer class="footer">
+    <br>Copyright &copy; 2023 She Travels<br>
+    <a href="mailto:leahjansen505@gmail.com">leahjansen505@gmail.com</a>
+    <br>
+    <br>
+    <a href="privacy.html">Our Privacy Policy</a>
+</div>
+</body>
+</html>
