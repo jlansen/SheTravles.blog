@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>She Travels</title>
+	<link rel="stylesheet" href="project.css">
+	<meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background: #EAEAEA;
+    
+        }
+
+        .header {
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+            background: #EAEAEA
+        }
+    
+        main h2 {
+            font-size: 40px;
+			text-align: center;
+			margin-left: 20px;
+			margin-right: 290px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #EAEAEA;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Shopping Cart</h1>
+        <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                  <a href="blogs.html" class="dropbtn">Blogs</a>
+                  <div class="dropdown-content">
+                      <a href="vlogs.html">Vlogs</a>
+                  </div>
+              </li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="dropdown">
+                  <a href="projectshop.html" class="dropbtn">Shop</a>
+                  <div class="dropdown-content">
+                      <a href="cart.html">Cart</a>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+
+<div class="shopping-cart">
+
+  <div class="product">
+    <div class="product-image">
+      <img src="airtag.jpg">
+      <div class="product-title">Air Tag</div>
+    </div>
+    <div class="product-price">12.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">13.00</div>
+  </div>
+      
+      <button class="checkout">Checkout</button>
+
+</div>
+  <footer class="footer">
+    <br>Copyright &copy; 2023 She Travels<br>
+    <a href="mailto:leahjansen505@gmail.com">leahjansen505@gmail.com</a>
+    <br>
+    <br>
+    <a href="privacy.html">Our Privacy Policy</a>
+</div>
+</body>
+</html>

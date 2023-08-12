@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>She Travles</title>
+	<link rel="stylesheet" href="project.css">
+	<meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background: #EAEAEA;
+    
+        }
+
+        .header {
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+            background: #EAEAEA
+        }
+    
+        main h2 {
+            font-size: 40px;
+			text-align: center;
+			margin-left: 20px;
+			margin-right: 290px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #EAEAEA;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>She Travels</h1>
+    </header>
+    <header>
+        <nav>
+                
+        <div class="scrollmenu">
+            <ul>
+              <li><a href="project.html">Home</a></li>  
+              <li><a href="blogs.html">Blogs</a></li>  
+              <li><a href="gallery.html">Gallery</a></li> 
+              <li><a href="contact.html">Inquiry/Contact</a></li>
+              <li><a href="projectshop.html">Shop</a></li>
+              <li><a href="projectshop.html">Shop</a></li>
+              
+            
+            
+             </ul>
+            </div>
+        </nav>
+</body>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial;
+  padding: 20px;
+  background: #EAEAEA;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #EAEAEA;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #EAEAEA;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #EAEAEA;
+  margin-top: auto;
+}
+</style>
+</head>
+<body>
+    <div id="wrapper">
+<div class="header">
+  <h2>Blogs and Vlogs</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>2015 It Begins</h2>
+      <h5>July 1, 2023</h5>
+      <img src="blog1.jpg" alt="Image 1" style="width: 50%;">
+      <p>First Solo Trip</p>
+      <p>In 2015, I took my first solo trip out of the country!</p>
+    </div>
+    <div class="card">
+      <h2>Travel Essentials</h2>
+      <h5>July 7, 2023</h5>
+      <img src="blog2.jpg" alt="Image 1" style="width: 30%;">
+      <p>Gadgets to make anywhere feel like home</p>
+      <p>Fromt adapters to portable chargers, I have you covered...</p>
+    </div>
+  </div>
+</div>
+</div>
+  <footer class="footer">
+    <br>Copyright &copy; 2023 She Travels<br>
+    <a href="mailto:leahjansen505@gmail.com">leahjansen505@gmail.com</a>
+    <br>
+    <br>
+    <a href="privacy.html">Our Privacy Policy</a>
+</div>
+</body>
+</html>
